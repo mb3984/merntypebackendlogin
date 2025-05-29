@@ -1,0 +1,18 @@
+POST http://localhost:3220/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "madhu@gmail.com",
+  "password": "madhu12"
+}
+###
+POST http://localhost:3220/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "madhu@gmail.com",
+  "password": "madhu12"
+}
+###
+GET http://localhost:3220/api/auth/users
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MzdlODZmNjc2MDJjMmI4Yjg3OWIwOCIsImlhdCI6MTc0ODQ5NDQ1NCwiZXhwIjoxNzQ4NDk4MDU0fQ.kdnW9biUoJWRlpzIekyfmUK3R8Uf1P4BV_dCKpTifOw
